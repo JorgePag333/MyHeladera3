@@ -1,0 +1,24 @@
+﻿<Window x:Class="MyHeladera.Ventas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyHeladera"
+        mc:Ignorable="d"
+        Title="Ventas" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"></RowDefinition>
+            <RowDefinition Height="0.5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Grid.Column="0" Grid.Row="0" x:Name="marcos" Click="marcos_Click">Marcos</Button>
+        <TextBlock x:Name="texto" Grid.Row="0" Grid.Column="1" TextAlignment="Center" FontSize="50"></TextBlock>
+        <Button x:Name="Borrar" Grid.Column="0" Grid.Row="1" Click="Borrar_Click">Borrar</Button>
+        <Image MouseLeftButtonDown="ima_MouseLeftButtonDown" Name="ima"  Source="C:\Users\JIto\MisDocumentos\source\repos\MyHeladeria\MyHeladeria\R.jpg" Visibility="Hidden" Height="250" Width="250" Grid.Column="1" Grid.Row="0"></Image>
+                
+    </Grid>
+</Window>
