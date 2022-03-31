@@ -17,7 +17,7 @@
         </Grid.RowDefinitions>
         <Button Grid.Column="0" Grid.Row="0" x:Name="marcos" Click="marcos_Click">Marcos</Button>
         <TextBlock x:Name="texto" Grid.Row="0" Grid.Column="1" TextAlignment="Center" FontSize="50"></TextBlock>
-        <Button x:Name="Borrar" Grid.Column="0" Grid.Row="1" Click="Borrar_Click">Borrar</Button>
+        <Button x:Name="Borrar" Grid.Column="0" Grid.Row="1" Click="Borrar_Click">Borrar4</Button>
         <Image MouseLeftButtonDown="ima_MouseLeftButtonDown" Name="ima"  Source="C:\Users\JIto\MisDocumentos\source\repos\MyHeladeria\MyHeladeria\R.jpg" Visibility="Hidden" Height="250" Width="250" Grid.Column="1" Grid.Row="0"></Image>
                 
     </Grid>
