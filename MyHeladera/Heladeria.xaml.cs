@@ -23,5 +23,35 @@ namespace MyHeladera
         {
             InitializeComponent();
         }
+
+        private void Agregar_Gusto_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Modificar_Gusto_O_Articular_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Mostrar_Lista_Gustos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Agregar_Articulo_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Eliminar_Articulos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void MOstrar_Articulos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
