@@ -15,10 +15,11 @@
             <RowDefinition Height="0.5*"></RowDefinition>
             <RowDefinition Height="0.5*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Button Grid.Column="0" Grid.Row="0" x:Name="marcos" Click="marcos_Click">Marcos</Button>
-        <TextBlock x:Name="texto" Grid.Row="0" Grid.Column="1" TextAlignment="Center" FontSize="50"></TextBlock>
-        <Button x:Name="Borrar" Grid.Column="0" Grid.Row="1" Click="Borrar_Click">Borrar</Button>
-        <Image MouseLeftButtonDown="ima_MouseLeftButtonDown" Name="ima"  Source="C:\Users\JIto\MisDocumentos\source\repos\MyHeladeria\MyHeladeria\R.jpg" Visibility="Hidden" Height="250" Width="250" Grid.Column="1" Grid.Row="0"></Image>
+        <Button x:Name="Mostrar_Ventas" FontSize="25" Grid.Column="0" Grid.Row="0" Click="Mostrar_Ventas_Click">Mostrar Ventas</Button>
+        <Button x:Name="Registar_Ventas" FontSize="25" Grid.Column="0" Grid.Row="1" Click="Registar_Ventas_Click">Registrar Ventas</Button>
+        <Button x:Name="Modificar_Ventas" FontSize="25" Grid.Column="1" Grid.Row="0" Click="Modificar_Ventas_Click">Modificar Ventas</Button>
+        <Button x:Name="Eliminar_Ventas" FontSize="25" Grid.Column="1" Grid.Row="1" Click="Eliminar_Ventas_Click">Quitar/Eliminar Ventas</Button>
+        
                 
     </Grid>
 </Window>

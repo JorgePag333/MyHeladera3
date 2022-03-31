@@ -23,5 +23,25 @@ namespace MyHeladera
         {
             InitializeComponent();
         }
+
+        private void Mostrar_Pedidos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Modificar_Pedidos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Registar_Pedidos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Eliminar_Pedidos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

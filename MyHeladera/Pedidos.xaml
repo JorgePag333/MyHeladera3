@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="Pedidos" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"></RowDefinition>
+            <RowDefinition Height="0.5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="Mostrar_Pedidos" FontSize="25" Grid.Column="0" Grid.Row="0" Click="Mostrar_Pedidos_Click">Mostrar Pedidos</Button>
+        <Button x:Name="Registar_Pedidos" FontSize="25" Grid.Column="0" Grid.Row="1" Click="Registar_Pedidos_Click">Registrar Pedidos</Button>
+        <Button x:Name="Modificar_Pedidos" FontSize="25" Grid.Column="1" Grid.Row="0" Click="Modificar_Pedidos_Click">Modificar Pedidos</Button>
+        <Button x:Name="Eliminar_Pedidos" FontSize="25" Grid.Column="1" Grid.Row="1" Click="Eliminar_Pedidos_Click">Quitar/Eliminar Pedidos</Button>
     </Grid>
 </Window>
